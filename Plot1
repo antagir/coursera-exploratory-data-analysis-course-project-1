@@ -1,0 +1,5 @@
+###1st plot###
+> hist(as.numeric(as.character(data2$Global_active_power)), # note we used as.character and as numeric since
++                                                           # the variable is factor variable.
++                 main="Global Active Power",
++                 xlab="Global Active Power (kilowatts)", col="red")
